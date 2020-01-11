@@ -887,7 +887,7 @@ There are other annotations for managing Cloud Load Balancers on TKE as shown be
     metadata:
       name: my-service
       annotations:
-        # Bind Loadbalancers with speicfied nodes
+        # Bind Loadbalancers with specified nodes
         service.kubernetes.io/qcloud-loadbalancer-backends-label: key in (value1, value2)
 
         # ID of an existing load balancer
@@ -1015,7 +1015,7 @@ worth understanding.
 One of the primary philosophies of Kubernetes is that you should not be
 exposed to situations that could cause your actions to fail through no fault
 of your own. For the design of the Service resource, this means not making
-you choose your own port number for a if that choice might collide with
+you choose your own port number if that choice might collide with
 someone else's choice.  That is an isolation failure.
 
 In order to allow you to choose a port number for your Services, we must
