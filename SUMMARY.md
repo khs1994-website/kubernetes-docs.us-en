@@ -179,6 +179,7 @@
     * [TLS Bootstrapping](reference/command-line-tools-reference/kubelet-tls-bootstrapping.md)
     * [Kubelet](reference/command-line-tools-reference/kubelet.md)
   - Glossary
+    * [Add Ons](reference/glossary/addons.md)
     * [Admission Controller](reference/glossary/admission-controller.md)
     * [Aggregation Layer](reference/glossary/aggregation-layer.md)
     * [Annotation](reference/glossary/annotation.md)
