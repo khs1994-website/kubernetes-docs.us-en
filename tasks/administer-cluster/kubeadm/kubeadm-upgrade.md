@@ -75,6 +75,10 @@ The upgrade workflow at high level is the following:
     apt-mark unhold kubeadm && \
     apt-get update && apt-get install -y kubeadm=1.17.x-00 && \
     apt-mark hold kubeadm
+
+    # since apt-get version 1.1 you can also use the following method
+    apt-get update && \
+    apt-get install -y --allow-change-held-packages kubeadm=1.17.x-00
     {{% /tab %}}
     {{% tab name="CentOS, RHEL or Fedora" %}}
     # replace x in 1.17.x-0 with the latest patch version
@@ -91,7 +95,8 @@ The upgrade workflow at high level is the following:
 1.  Drain the control plane node:
 
     ```shell
-    kubectl drain $CP_NODE --ignore-daemonsets
+    # replace <cp-node-name> with the name of your control plane node
+    kubectl drain <cp-node-name> --ignore-daemonsets
     ```
 
 1.  On the control plane node, run:
@@ -144,10 +149,10 @@ The upgrade workflow at high level is the following:
 1.  Choose a version to upgrade to, and run the appropriate command. For example:
 
     ```shell
+    # replace x with the patch version you picked for this upgrade
     sudo kubeadm upgrade apply v1.17.x
     ```
 
-    - Replace `x` with the patch version you picked for this upgrade.
 
     You should see output similar to this:
 
@@ -237,10 +242,11 @@ The upgrade workflow at high level is the following:
 
     This step is not required on additional control plane nodes if the CNI provider runs as a DaemonSet.
 
-1.  Uncordon the control plane node
+1.  Uncordon the control plane node:
 
     ```shell
-    kubectl uncordon $CP_NODE
+    # replace <cp-node-name> with the name of your control plane node
+    kubectl uncordon <cp-node-name>
     ```
 
 ### Upgrade additional control plane nodes
@@ -269,6 +275,10 @@ Also `sudo kubeadm upgrade plan` is not needed.
     apt-mark unhold kubelet kubectl && \
     apt-get update && apt-get install -y kubelet=1.17.x-00 kubectl=1.17.x-00 && \
     apt-mark hold kubelet kubectl
+
+    # since apt-get version 1.1 you can also use the following method
+    apt-get update && \
+    apt-get install -y --allow-change-held-packages kubelet=1.17.x-00 kubectl=1.17.x-00
     {{% /tab %}}
     {{% tab name="CentOS, RHEL or Fedora" %}}
     # replace x in 1.17.x-0 with the latest patch version
@@ -297,6 +307,10 @@ without compromising the minimum required capacity for running your workloads.
     apt-mark unhold kubeadm && \
     apt-get update && apt-get install -y kubeadm=1.17.x-00 && \
     apt-mark hold kubeadm
+
+    # since apt-get version 1.1 you can also use the following method
+    apt-get update && \
+    apt-get install -y --allow-change-held-packages kubeadm=1.17.x-00
     {{% /tab %}}
     {{% tab name="CentOS, RHEL or Fedora" %}}
     # replace x in 1.17.x-0 with the latest patch version
@@ -306,10 +320,11 @@ without compromising the minimum required capacity for running your workloads.
 
 ### Drain the node
 
-1.  Prepare the node for maintenance by marking it unschedulable and evicting the workloads. Run:
+1.  Prepare the node for maintenance by marking it unschedulable and evicting the workloads:
 
     ```shell
-    kubectl drain $NODE --ignore-daemonsets
+    # replace <node-to-drain> with the name of your node you are draining
+    kubectl drain <node-to-drain> --ignore-daemonsets
     ```
 
     You should see output similar to this:
@@ -338,6 +353,10 @@ without compromising the minimum required capacity for running your workloads.
     apt-mark unhold kubelet kubectl && \
     apt-get update && apt-get install -y kubelet=1.17.x-00 kubectl=1.17.x-00 && \
     apt-mark hold kubelet kubectl
+
+    # since apt-get version 1.1 you can also use the following method
+    apt-get update && \
+    apt-get install -y --allow-change-held-packages kubelet=1.17.x-00 kubectl=1.17.x-00
     {{% /tab %}}
     {{% tab name="CentOS, RHEL or Fedora" %}}
     # replace x in 1.17.x-0 with the latest patch version
@@ -356,7 +375,8 @@ without compromising the minimum required capacity for running your workloads.
 1.  Bring the node back online by marking it schedulable:
 
     ```shell
-    kubectl uncordon $NODE
+    # replace <node-to-drain> with the name of your node 
+    kubectl uncordon <node-to-drain>
     ```
 
 ## Verify the status of the cluster
