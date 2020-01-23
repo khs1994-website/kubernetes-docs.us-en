@@ -756,13 +756,4 @@
     * [Example Deploying PHP Guestbook Application With Redis](tutorials/stateless-application/guestbook.md)
   * [Tutorials](tutorials/_index.md)
   * [Hello Minikube](tutorials/hello-minikube.md)
-- User Journeys
-  - Users
-    - Application Developer
-      * [Advanced Topics](user-journeys/users/application-developer/advanced.md)
-      * [Foundational](user-journeys/users/application-developer/foundational.md)
-      * [Intermediate](user-journeys/users/application-developer/intermediate.md)
-    - Cluster Operator
-      * [Foundational](user-journeys/users/cluster-operator/foundational.md)
-      * [Intermediate](user-journeys/users/cluster-operator/intermediate.md)
 * [Production Grade Container Orchestration](README.md)
