@@ -132,6 +132,8 @@
     * [Generating Reference Documentation For Kubectl Commands](contribute/generate-ref-docs/kubectl.md)
     * [Generating Reference Documentation For The Kubernetes API](contribute/generate-ref-docs/kubernetes-api.md)
     * [Generating Reference Pages For Kubernetes Components And Tools](contribute/generate-ref-docs/kubernetes-components.md)
+    * [Prerequisites Ref Docs](contribute/generate-ref-docs/prerequisites-ref-docs.md)
+    * [Quickstart](contribute/generate-ref-docs/quickstart.md)
   - Style
     - Hugo Shortcodes
       * [Example](contribute/style/hugo-shortcodes/example2.md)
@@ -573,6 +575,7 @@
     * [Debugging DNS Resolution](tasks/administer-cluster/dns-debugging-resolution.md)
     * [Autoscale The DNS Service In A Cluster](tasks/administer-cluster/dns-horizontal-autoscaling.md)
     * [Enabling Endpoint Slices](tasks/administer-cluster/enabling-endpointslices.md)
+    * [Enabling Service Topology](tasks/administer-cluster/enabling-service-topology.md)
     * [Encrypting Secret Data At Rest](tasks/administer-cluster/encrypt-data.md)
     * [Advertise Extended Resources For A Node](tasks/administer-cluster/extended-resource-node.md)
     * [Guaranteed Scheduling For Critical Add On Pods](tasks/administer-cluster/guaranteed-scheduling-critical-addon-pods.md)
