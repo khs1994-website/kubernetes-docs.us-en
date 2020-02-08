@@ -13,11 +13,11 @@
     * [Certificates](concepts/cluster-administration/certificates.md)
     * [Cloud Providers](concepts/cluster-administration/cloud-providers.md)
     * [Cluster Administration Overview](concepts/cluster-administration/cluster-administration-overview.md)
-    * [Controller Manager Metrics](concepts/cluster-administration/controller-metrics.md)
     * [Federation](concepts/cluster-administration/federation.md)
     * [Configuring Kubelet Garbage Collection](concepts/cluster-administration/kubelet-garbage-collection.md)
     * [Logging Architecture](concepts/cluster-administration/logging.md)
     * [Managing Resources](concepts/cluster-administration/manage-deployment.md)
+    * [Metrics For The Kubernetes Control Plane](concepts/cluster-administration/monitoring.md)
     * [Cluster Networking](concepts/cluster-administration/networking.md)
     * [Proxies In Kubernetes](concepts/cluster-administration/proxies.md)
   - Configuration
