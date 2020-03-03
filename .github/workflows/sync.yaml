@@ -17,8 +17,11 @@ jobs:
         with:
           fetch-depth: 2
       - name: Fetch upstream
+        id: upstream
         run: |
           git clone --depth=1 ${GIT_URL} website
+          UPSTREAM_COMMIT_SHA=`git -C website log --abbrev-commit --pretty="%h" -1`
+          echo "::set-output name=UPSTREAM_COMMIT_SHA::${UPSTREAM_COMMIT_SHA}"
         env:
           GIT_URL: https://github.com/kubernetes/website
       - name: Generate SUMMARY
@@ -47,6 +50,6 @@ jobs:
           PCIT_GIT_URL: github.com/${{ github.repository }}
           PCIT_KEEP_HISTORY: "true"
           PCIT_LOCAL_DIR: website/content/en/docs
-          PCIT_MESSAGE: Sync from kubernetes/website by PCIT ${{ github.sha }}
+          PCIT_MESSAGE: Sync from kubernetes/website ${{ steps.upstream.outputs.UPSTREAM_COMMIT_SHA }} by PCIT
           PCIT_TARGET_BRANCH: master
           PCIT_USERNAME: khs1994
