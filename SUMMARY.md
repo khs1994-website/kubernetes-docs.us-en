@@ -722,9 +722,6 @@
       * [Scale Your App](tutorials/kubernetes-basics/scale/_index.md)
     - Update
       * [Update Your App](tutorials/kubernetes-basics/update/_index.md)
-  - Online Training
-    * [Online Training Courses](tutorials/online-training/_index.md)
-    * [Overview Of Kubernetes Online Training](tutorials/online-training/overview.md)
   - Services
     * [Services](tutorials/services/_index.md)
     * [Using Source IP](tutorials/services/source-ip.md)
