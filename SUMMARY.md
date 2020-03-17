@@ -13,7 +13,6 @@
     * [Certificates](concepts/cluster-administration/certificates.md)
     * [Cloud Providers](concepts/cluster-administration/cloud-providers.md)
     * [Cluster Administration Overview](concepts/cluster-administration/cluster-administration-overview.md)
-    * [Federation](concepts/cluster-administration/federation.md)
     * [Configuring Kubelet Garbage Collection](concepts/cluster-administration/kubelet-garbage-collection.md)
     * [Logging Architecture](concepts/cluster-administration/logging.md)
     * [Managing Resources](concepts/cluster-administration/manage-deployment.md)
@@ -34,9 +33,10 @@
     * [Taints And Tolerations](concepts/configuration/taint-and-toleration.md)
   - Containers
     * [Containers](concepts/containers/_index.md)
-    * [Container Environment Variables](concepts/containers/container-environment-variables.md)
+    * [Container Environment](concepts/containers/container-environment.md)
     * [Container Lifecycle Hooks](concepts/containers/container-lifecycle-hooks.md)
     * [Images](concepts/containers/images.md)
+    * [Containers Overview](concepts/containers/overview.md)
     * [Runtime Class](concepts/containers/runtime-class.md)
   - Extend Kubernetes
     - Api Extension
