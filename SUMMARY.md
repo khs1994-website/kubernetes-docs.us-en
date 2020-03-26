@@ -13,6 +13,7 @@
     * [Certificates](concepts/cluster-administration/certificates.md)
     * [Cloud Providers](concepts/cluster-administration/cloud-providers.md)
     * [Cluster Administration Overview](concepts/cluster-administration/cluster-administration-overview.md)
+    * [API Priority And Fairness](concepts/cluster-administration/flow-control.md)
     * [Configuring Kubelet Garbage Collection](concepts/cluster-administration/kubelet-garbage-collection.md)
     * [Logging Architecture](concepts/cluster-administration/logging.md)
     * [Managing Resources](concepts/cluster-administration/manage-deployment.md)
@@ -28,7 +29,6 @@
     * [Pod Overhead](concepts/configuration/pod-overhead.md)
     * [Pod Priority And Preemption](concepts/configuration/pod-priority-preemption.md)
     * [Resource Bin Packing For Extended Resources](concepts/configuration/resource-bin-packing.md)
-    * [Scheduling Framework](concepts/configuration/scheduling-framework.md)
     * [Secrets](concepts/configuration/secret.md)
     * [Taints And Tolerations](concepts/configuration/taint-and-toleration.md)
   - Containers
@@ -76,6 +76,7 @@
     * [Scheduling](concepts/scheduling/_index.md)
     * [Kubernetes Scheduler](concepts/scheduling/kube-scheduler.md)
     * [Scheduler Performance Tuning](concepts/scheduling/scheduler-perf-tuning.md)
+    * [Scheduling Framework](concepts/scheduling/scheduling-framework.md)
   - Security
     * [Security](concepts/security/_index.md)
     * [Overview Of Cloud Native Security](concepts/security/overview.md)
@@ -163,6 +164,7 @@
     * [Authenticating](reference/access-authn-authz/authentication.md)
     * [Authorization Overview](reference/access-authn-authz/authorization.md)
     * [Authenticating With Bootstrap Tokens](reference/access-authn-authz/bootstrap-tokens.md)
+    * [Certificate Signing Requests](reference/access-authn-authz/certificate-signing-requests.md)
     * [Controlling Access To The Kubernetes API](reference/access-authn-authz/controlling-access.md)
     * [Dynamic Admission Control](reference/access-authn-authz/extensible-admission-controllers.md)
     * [Using Node Authorization](reference/access-authn-authz/node.md)
@@ -290,6 +292,7 @@
     * [Service Broker](reference/glossary/service-broker.md)
     * [Service Catalog](reference/glossary/service-catalog.md)
     * [Service](reference/glossary/service.md)
+    * [Shuffle Sharding](reference/glossary/shuffle-sharding.md)
     * [SIG Special Interest Group](reference/glossary/sig.md)
     * [Stateful Set](reference/glossary/statefulset.md)
     * [Static Pod](reference/glossary/static-pod.md)
@@ -317,8 +320,12 @@
     * [Overview Of Kubectl](reference/kubectl/overview.md)
   - Kubernetes Api
     * [API Reference](reference/kubernetes-api/_index.md)
-    * [v1.17](reference/kubernetes-api/api-index.md)
+    * [v1.18](reference/kubernetes-api/api-index.md)
     * [Well Known Labels Annotations And Taints](reference/kubernetes-api/labels-annotations-taints.md)
+  - Scheduling
+    * [Scheduling](reference/scheduling/_index.md)
+    * [Scheduling Policies](reference/scheduling/policies.md)
+    * [Scheduling Profiles](reference/scheduling/profiles.md)
   - Setup Tools
     - Kubeadm
       - [Generated](reference/setup-tools/kubeadm/generated/README.md)
@@ -507,7 +514,6 @@
       * [Windows In Kubernetes](setup/production-environment/windows/_index.md)
       * [Intro To Windows Support In Kubernetes](setup/production-environment/windows/intro-windows-in-kubernetes.md)
       * [Guide For Scheduling Windows Containers In Kubernetes](setup/production-environment/windows/user-guide-windows-containers.md)
-      * [Guide For Adding Windows Nodes In Kubernetes](setup/production-environment/windows/user-guide-windows-nodes.md)
     * [Production Environment](setup/production-environment/_index.md)
     * [Container Runtimes](setup/production-environment/container-runtimes.md)
   - Release
@@ -542,8 +548,10 @@
   - Administer Cluster
     - Kubeadm
       * [Administration With Kubeadm](tasks/administer-cluster/kubeadm/_index.md)
+      * [Adding Windows Nodes](tasks/administer-cluster/kubeadm/adding-windows-nodes.md)
       * [Certificate Management With Kubeadm](tasks/administer-cluster/kubeadm/kubeadm-certs.md)
       * [Upgrading Kubeadm Clusters](tasks/administer-cluster/kubeadm/kubeadm-upgrade.md)
+      * [Upgrading Windows Nodes](tasks/administer-cluster/kubeadm/upgrading-windows-nodes.md)
     - Manage Resources
       * [Manage Memory CPU And API Resources](tasks/administer-cluster/manage-resources/_index.md)
       * [Configure Minimum And Maximum CPU Constraints For A Namespace](tasks/administer-cluster/manage-resources/cpu-constraint-namespace.md)
@@ -627,6 +635,7 @@
     * [Troubleshoot Clusters](tasks/debug-application-cluster/debug-cluster.md)
     * [Debug Init Containers](tasks/debug-application-cluster/debug-init-containers.md)
     * [Debug Pods And Replication Controllers](tasks/debug-application-cluster/debug-pod-replication-controller.md)
+    * [Debug Running Pods](tasks/debug-application-cluster/debug-running-pod.md)
     * [Debug Services](tasks/debug-application-cluster/debug-service.md)
     * [Debug A Stateful Set](tasks/debug-application-cluster/debug-stateful-set.md)
     * [Determine The Reason For Pod Failure](tasks/debug-application-cluster/determine-reason-pod-failure.md)
