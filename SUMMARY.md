@@ -608,6 +608,7 @@
     * [Configure Pods And Containers](tasks/configure-pod-container/_index.md)
     * [Assign CPU Resources To Containers And Pods](tasks/configure-pod-container/assign-cpu-resource.md)
     * [Assign Memory Resources To Containers And Pods](tasks/configure-pod-container/assign-memory-resource.md)
+    * [Assign Pods To Nodes Using Node Affinity](tasks/configure-pod-container/assign-pods-nodes-using-node-affinity.md)
     * [Assign Pods To Nodes](tasks/configure-pod-container/assign-pods-nodes.md)
     * [Attach Handlers To Container Lifecycle Events](tasks/configure-pod-container/attach-handler-lifecycle-event.md)
     * [Configure GMSA For Windows Pods And Containers](tasks/configure-pod-container/configure-gmsa.md)
