@@ -690,7 +690,6 @@
     * [Force Delete Stateful Set Pods](tasks/run-application/force-delete-stateful-set-pod.md)
     * [Horizontal Pod Autoscaler Walkthrough](tasks/run-application/horizontal-pod-autoscale-walkthrough.md)
     * [Horizontal Pod Autoscaler](tasks/run-application/horizontal-pod-autoscale.md)
-    * [Perform Rolling Update Using A Replication Controller](tasks/run-application/rolling-update-replication-controller.md)
     * [Run A Replicated Stateful Application](tasks/run-application/run-replicated-stateful-application.md)
     * [Run A Single Instance Stateful Application](tasks/run-application/run-single-instance-stateful-application.md)
     * [Run A Stateless Application Using A Deployment](tasks/run-application/run-stateless-application-deployment.md)
