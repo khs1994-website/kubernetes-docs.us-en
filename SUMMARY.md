@@ -699,6 +699,8 @@
     * [Install Service Catalog](tasks/service-catalog/_index.md)
     * [Install Service Catalog Using Helm](tasks/service-catalog/install-service-catalog-using-helm.md)
     * [Install Service Catalog Using SC](tasks/service-catalog/install-service-catalog-using-sc.md)
+  - Setup Konnectivity
+    * [Setup Konnectivity Service](tasks/setup-konnectivity/setup-konnectivity.md)
   - Tls
     * [TLS](tasks/tls/_index.md)
     * [Certificate Rotation](tasks/tls/certificate-rotation.md)
@@ -737,7 +739,7 @@
   - Stateful Application
     * [Stateful Applications](tutorials/stateful-application/_index.md)
     * [Stateful Set Basics](tutorials/stateful-application/basic-stateful-set.md)
-    * [Example Deploying Cassandra With Stateful Sets](tutorials/stateful-application/cassandra.md)
+    * [Example Deploying Cassandra With A Stateful Set](tutorials/stateful-application/cassandra.md)
     * [Example Deploying Word Press And My SQL With Persistent Volumes](tutorials/stateful-application/mysql-wordpress-persistent-volume.md)
     * [Running Zoo Keeper A Distributed System Coordinator](tutorials/stateful-application/zookeeper.md)
   - Stateless Application
