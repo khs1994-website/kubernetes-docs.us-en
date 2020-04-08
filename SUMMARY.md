@@ -135,6 +135,16 @@
     * [Generating Reference Pages For Kubernetes Components And Tools](contribute/generate-ref-docs/kubernetes-components.md)
     * [Prerequisites Ref Docs](contribute/generate-ref-docs/prerequisites-ref-docs.md)
     * [Quickstart](contribute/generate-ref-docs/quickstart.md)
+  - New Content
+    * [Contributing New Content](contribute/new-content/_index.md)
+    * [Submitting Blog Posts And Case Studies](contribute/new-content/blogs-case-studies.md)
+    * [Documenting A Feature For A Release](contribute/new-content/new-features.md)
+    * [Opening A Pull Request](contribute/new-content/open-a-pr.md)
+    * [Contributing New Content Overview](contribute/new-content/overview.md)
+  - Review
+    * [Reviewing Changes](contribute/review/_index.md)
+    * [Reviewing For Approvers And Reviewers](contribute/review/for-approvers.md)
+    * [Reviewing Pull Requests](contribute/review/reviewing-prs.md)
   - Style
     - Hugo Shortcodes
       * [Example](contribute/style/hugo-shortcodes/example2.md)
@@ -147,10 +157,9 @@
     * [Writing A New Topic](contribute/style/write-new-topic.md)
   * [Contribute To Kubernetes Docs](contribute/_index.md)
   * [Advanced Contributing](contribute/advanced.md)
-  * [Intermediate Contributing](contribute/intermediate.md)
   * [Localizing Kubernetes Documentation](contribute/localization.md)
   * [Participating In SIG Docs](contribute/participating.md)
-  * [Start Contributing](contribute/start.md)
+  * [Suggesting Content Improvements](contribute/suggesting-improvements.md)
 - [Doc Contributor Tools](doc-contributor-tools/README.md)
   - [Snippets](doc-contributor-tools/snippets/README.md)
 - Home
@@ -700,7 +709,8 @@
     * [Install Service Catalog Using Helm](tasks/service-catalog/install-service-catalog-using-helm.md)
     * [Install Service Catalog Using SC](tasks/service-catalog/install-service-catalog-using-sc.md)
   - Setup Konnectivity
-    * [Setup Konnectivity Service](tasks/setup-konnectivity/setup-konnectivity.md)
+    * [Setup Konnectivity Service](tasks/setup-konnectivity/_index.md)
+    * [Set Up Konnectivity Service](tasks/setup-konnectivity/setup-konnectivity.md)
   - Tls
     * [TLS](tasks/tls/_index.md)
     * [Certificate Rotation](tasks/tls/certificate-rotation.md)
