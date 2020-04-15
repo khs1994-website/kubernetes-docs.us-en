@@ -72,11 +72,11 @@
     * [Limit Ranges](concepts/policy/limit-range.md)
     * [Pod Security Policies](concepts/policy/pod-security-policy.md)
     * [Resource Quotas](concepts/policy/resource-quotas.md)
-  - Scheduling
-    * [Scheduling](concepts/scheduling/_index.md)
-    * [Kubernetes Scheduler](concepts/scheduling/kube-scheduler.md)
-    * [Scheduler Performance Tuning](concepts/scheduling/scheduler-perf-tuning.md)
-    * [Scheduling Framework](concepts/scheduling/scheduling-framework.md)
+  - Scheduling Eviction
+    * [Scheduling And Eviction](concepts/scheduling-eviction/_index.md)
+    * [Kubernetes Scheduler](concepts/scheduling-eviction/kube-scheduler.md)
+    * [Scheduler Performance Tuning](concepts/scheduling-eviction/scheduler-perf-tuning.md)
+    * [Scheduling Framework](concepts/scheduling-eviction/scheduling-framework.md)
   - Security
     * [Security](concepts/security/_index.md)
     * [Overview Of Cloud Native Security](concepts/security/overview.md)
