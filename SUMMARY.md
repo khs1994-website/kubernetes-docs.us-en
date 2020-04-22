@@ -23,7 +23,7 @@
   - Configuration
     * [Configuration](concepts/configuration/_index.md)
     * [Assigning Pods To Nodes](concepts/configuration/assign-pod-node.md)
-    * [Managing Compute Resources For Containers](concepts/configuration/manage-compute-resources-container.md)
+    * [Managing Resources For Containers](concepts/configuration/manage-resources-containers.md)
     * [Organizing Cluster Access Using Kubeconfig Files](concepts/configuration/organize-cluster-access-kubeconfig.md)
     * [Configuration Best Practices](concepts/configuration/overview.md)
     * [Pod Overhead](concepts/configuration/pod-overhead.md)
@@ -267,6 +267,7 @@
     * [Logging](reference/glossary/logging.md)
     * [Managed Service](reference/glossary/managed-service.md)
     * [Manifest](reference/glossary/manifest.md)
+    * [Master](reference/glossary/master.md)
     * [Member](reference/glossary/member.md)
     * [Minikube](reference/glossary/minikube.md)
     * [Mirror Pod](reference/glossary/mirror-pod.md)
