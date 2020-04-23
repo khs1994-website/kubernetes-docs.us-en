@@ -3,9 +3,9 @@
 - Concepts
   - Architecture
     * [Cluster Architecture](concepts/architecture/_index.md)
-    * [Concepts Underlying The Cloud Controller Manager](concepts/architecture/cloud-controller.md)
+    * [Cloud Controller Manager](concepts/architecture/cloud-controller.md)
+    * [Control Plane Node Communication](concepts/architecture/control-plane-node-communication.md)
     * [Controllers](concepts/architecture/controller.md)
-    * [Master Node Communication](concepts/architecture/master-node-communication.md)
     * [Nodes](concepts/architecture/nodes.md)
   - Cluster Administration
     * [Cluster Administration](concepts/cluster-administration/_index.md)
@@ -23,6 +23,7 @@
   - Configuration
     * [Configuration](concepts/configuration/_index.md)
     * [Assigning Pods To Nodes](concepts/configuration/assign-pod-node.md)
+    * [Config Maps](concepts/configuration/configmap.md)
     * [Managing Resources For Containers](concepts/configuration/manage-resources-containers.md)
     * [Organizing Cluster Access Using Kubeconfig Files](concepts/configuration/organize-cluster-access-kubeconfig.md)
     * [Configuration Best Practices](concepts/configuration/overview.md)
@@ -609,7 +610,7 @@
     * [Configure Quotas For API Objects](tasks/administer-cluster/quota-api-object.md)
     * [Reconfigure A Node S Kubelet In A Live Cluster](tasks/administer-cluster/reconfigure-kubelet.md)
     * [Reserve Compute Resources For System Daemons](tasks/administer-cluster/reserve-compute-resources.md)
-    * [Kubernetes Cloud Controller Manager](tasks/administer-cluster/running-cloud-controller.md)
+    * [Cloud Controller Manager Administration](tasks/administer-cluster/running-cloud-controller.md)
     * [Safely Drain A Node While Respecting The Pod Disruption Budget](tasks/administer-cluster/safely-drain-node.md)
     * [Securing A Cluster](tasks/administer-cluster/securing-a-cluster.md)
     * [Using Sysctls In A Kubernetes Cluster](tasks/administer-cluster/sysctl-cluster.md)
