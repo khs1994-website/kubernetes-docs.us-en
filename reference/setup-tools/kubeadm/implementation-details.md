@@ -101,7 +101,7 @@ The user can skip specific preflight checks or all of them with the `--ignore-pr
 - [Error] if `/proc/sys/net/bridge/bridge-nf-call-iptables` file does not exist/does not contain 1
 - [Error] if advertise address is ipv6 and `/proc/sys/net/bridge/bridge-nf-call-ip6tables` does not exist/does not contain 1.
 - [Error] if swap is on
-- [Error] if `ip`, `iptables`,  `mount`, `nsenter` commands are not present in the command path
+- [Error] if `conntrack`, `ip`, `iptables`,  `mount`, `nsenter` commands are not present in the command path
 - [warning] if `ebtables`, `ethtool`, `socat`, `tc`, `touch`, `crictl` commands are not present in the command path
 - [warning] if extra arg flags for API server, controller manager,  scheduler contains some invalid options
 - [warning] if connection to https://API.AdvertiseAddress:API.BindPort goes through proxy
@@ -346,12 +346,12 @@ Please note that:
 1. Before saving the ClusterConfiguration, sensitive information like the token is stripped from the configuration
 2. Upload of master configuration can be invoked individually with the [`kubeadm init phase upload-config`](/docs/reference/setup-tools/kubeadm/kubeadm-init-phase/#cmd-phase-upload-config) command
 
-### Mark master
+### Mark the node as control-plane
 
 As soon as the control plane is available, kubeadm executes following actions:
 
-- Label the master with `node-role.kubernetes.io/master=""`
-- Taints the master with `node-role.kubernetes.io/master:NoSchedule`
+- Labels the node as control-plane with `node-role.kubernetes.io/master=""`
+- Taints the node with `node-role.kubernetes.io/master:NoSchedule`
 
 Please note that:
 
