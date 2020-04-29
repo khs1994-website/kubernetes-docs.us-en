@@ -358,7 +358,6 @@
         * [Kubeadm Alpha Certs](reference/setup-tools/kubeadm/generated/kubeadm_alpha_certs.md)
         * [Kubeadm Alpha Kubeconfig User](reference/setup-tools/kubeadm/generated/kubeadm_alpha_kubeconfig_user.md)
         * [Kubeadm Alpha Kubeconfig](reference/setup-tools/kubeadm/generated/kubeadm_alpha_kubeconfig.md)
-        * [Kubeadm Alpha Kubelet Config Download](reference/setup-tools/kubeadm/generated/kubeadm_alpha_kubelet_config_download.md)
         * [Kubeadm Alpha Kubelet Config Enable Dynamic](reference/setup-tools/kubeadm/generated/kubeadm_alpha_kubelet_config_enable-dynamic.md)
         * [Kubeadm Alpha Kubelet Config](reference/setup-tools/kubeadm/generated/kubeadm_alpha_kubelet_config.md)
         * [Kubeadm Alpha Kubelet](reference/setup-tools/kubeadm/generated/kubeadm_alpha_kubelet.md)
