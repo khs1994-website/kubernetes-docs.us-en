@@ -22,7 +22,6 @@
     * [Proxies In Kubernetes](concepts/cluster-administration/proxies.md)
   - Configuration
     * [Configuration](concepts/configuration/_index.md)
-    * [Assigning Pods To Nodes](concepts/configuration/assign-pod-node.md)
     * [Config Maps](concepts/configuration/configmap.md)
     * [Managing Resources For Containers](concepts/configuration/manage-resources-containers.md)
     * [Organizing Cluster Access Using Kubeconfig Files](concepts/configuration/organize-cluster-access-kubeconfig.md)
@@ -31,7 +30,6 @@
     * [Pod Priority And Preemption](concepts/configuration/pod-priority-preemption.md)
     * [Resource Bin Packing For Extended Resources](concepts/configuration/resource-bin-packing.md)
     * [Secrets](concepts/configuration/secret.md)
-    * [Taints And Tolerations](concepts/configuration/taint-and-toleration.md)
   - Containers
     * [Containers](concepts/containers/_index.md)
     * [Container Environment](concepts/containers/container-environment.md)
@@ -75,9 +73,11 @@
     * [Resource Quotas](concepts/policy/resource-quotas.md)
   - Scheduling Eviction
     * [Scheduling And Eviction](concepts/scheduling-eviction/_index.md)
+    * [Assigning Pods To Nodes](concepts/scheduling-eviction/assign-pod-node.md)
     * [Kubernetes Scheduler](concepts/scheduling-eviction/kube-scheduler.md)
     * [Scheduler Performance Tuning](concepts/scheduling-eviction/scheduler-perf-tuning.md)
     * [Scheduling Framework](concepts/scheduling-eviction/scheduling-framework.md)
+    * [Taints And Tolerations](concepts/scheduling-eviction/taint-and-toleration.md)
   - Security
     * [Security](concepts/security/_index.md)
     * [Overview Of Cloud Native Security](concepts/security/overview.md)
@@ -722,8 +722,6 @@
     * [Install Minikube](tasks/tools/install-minikube.md)
   * [Tasks](tasks/_index.md)
   * [Example Task Template](tasks/example-task-template.md)
-- Templates
-  * [Index](templates/index.md)
 - Tutorials
   - Clusters
     * [Clusters](tutorials/clusters/_index.md)
