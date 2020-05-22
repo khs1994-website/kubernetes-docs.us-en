@@ -81,6 +81,7 @@
   - Security
     * [Security](concepts/security/_index.md)
     * [Overview Of Cloud Native Security](concepts/security/overview.md)
+    * [Pod Security Standards](concepts/security/pod-security-standards.md)
   - Services Networking
     * [Services Load Balancing And Networking](concepts/services-networking/_index.md)
     * [Adding Entries To Pod Etc Hosts With Host Aliases](concepts/services-networking/add-entries-to-pod-etc-hosts-with-host-aliases.md)
