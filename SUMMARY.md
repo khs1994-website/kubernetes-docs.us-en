@@ -163,6 +163,7 @@
   * [Participating In SIG Docs](contribute/participating.md)
   * [Suggesting Content Improvements](contribute/suggesting-improvements.md)
 - [Doc Contributor Tools](doc-contributor-tools/README.md)
+  - [Linkchecker](doc-contributor-tools/linkchecker/README.md)
   - [Snippets](doc-contributor-tools/snippets/README.md)
 - Home
   * [Kubernetes Documentation](home/_index.md)
