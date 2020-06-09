@@ -690,6 +690,7 @@
     * [Managing Kubernetes Objects Using Imperative Commands](tasks/manage-kubernetes-objects/imperative-command.md)
     * [Imperative Management Of Kubernetes Objects Using Configuration Files](tasks/manage-kubernetes-objects/imperative-config.md)
     * [Declarative Management Of Kubernetes Objects Using Kustomize](tasks/manage-kubernetes-objects/kustomization.md)
+    * [Update API Objects In Place Using Kubectl Patch](tasks/manage-kubernetes-objects/update-api-object-kubectl-patch.md)
   - Network
     * [Network](tasks/network/_index.md)
     * [Validate I Pv 4 I Pv 6 Dual Stack](tasks/network/validate-dual-stack.md)
@@ -704,7 +705,6 @@
     * [Run A Single Instance Stateful Application](tasks/run-application/run-single-instance-stateful-application.md)
     * [Run A Stateless Application Using A Deployment](tasks/run-application/run-stateless-application-deployment.md)
     * [Scale A Stateful Set](tasks/run-application/scale-stateful-set.md)
-    * [Update API Objects In Place Using Kubectl Patch](tasks/run-application/update-api-object-kubectl-patch.md)
   - Service Catalog
     * [Install Service Catalog](tasks/service-catalog/_index.md)
     * [Install Service Catalog Using Helm](tasks/service-catalog/install-service-catalog-using-helm.md)
