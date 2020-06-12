@@ -545,15 +545,6 @@
     * [Use Port Forwarding To Access Applications In A Cluster](tasks/access-application-cluster/port-forward-access-application-cluster.md)
     * [Use A Service To Access An Application In A Cluster](tasks/access-application-cluster/service-access-application-cluster.md)
     * [Web UI Dashboard](tasks/access-application-cluster/web-ui-dashboard.md)
-  - Access Kubernetes Api
-    - Custom Resources
-      * [Use Custom Resources](tasks/access-kubernetes-api/custom-resources/_index.md)
-      * [Versions In Custom Resource Definitions](tasks/access-kubernetes-api/custom-resources/custom-resource-definition-versioning.md)
-      * [Extend The Kubernetes API With Custom Resource Definitions](tasks/access-kubernetes-api/custom-resources/custom-resource-definitions.md)
-    * [Extend Kubernetes](tasks/access-kubernetes-api/_index.md)
-    * [Configure The Aggregation Layer](tasks/access-kubernetes-api/configure-aggregation-layer.md)
-    * [Use An HTTP Proxy To Access The Kubernetes API](tasks/access-kubernetes-api/http-proxy-access-api.md)
-    * [Setup An Extension API Server](tasks/access-kubernetes-api/setup-extension-api-server.md)
   - Administer Cluster
     - Kubeadm
       * [Administration With Kubeadm](tasks/administer-cluster/kubeadm/_index.md)
@@ -661,6 +652,16 @@
     * [Troubleshooting](tasks/debug-application-cluster/troubleshooting.md)
   - Extend Kubectl
     * [Extend Kubectl With Plugins](tasks/extend-kubectl/kubectl-plugins.md)
+  - Extend Kubernetes
+    - Custom Resources
+      * [Use Custom Resources](tasks/extend-kubernetes/custom-resources/_index.md)
+      * [Versions In Custom Resource Definitions](tasks/extend-kubernetes/custom-resources/custom-resource-definition-versioning.md)
+      * [Extend The Kubernetes API With Custom Resource Definitions](tasks/extend-kubernetes/custom-resources/custom-resource-definitions.md)
+    * [Extend Kubernetes](tasks/extend-kubernetes/_index.md)
+    * [Configure The Aggregation Layer](tasks/extend-kubernetes/configure-aggregation-layer.md)
+    * [Use An HTTP Proxy To Access The Kubernetes API](tasks/extend-kubernetes/http-proxy-access-api.md)
+    * [Set Up An Extension API Server](tasks/extend-kubernetes/setup-extension-api-server.md)
+    * [Set Up Konnectivity Service](tasks/extend-kubernetes/setup-konnectivity.md)
   - Inject Data Application
     * [Inject Data Into Applications](tasks/inject-data-application/_index.md)
     * [Define A Command And Arguments For A Container](tasks/inject-data-application/define-command-argument-container.md)
@@ -708,13 +709,11 @@
     * [Install Service Catalog](tasks/service-catalog/_index.md)
     * [Install Service Catalog Using Helm](tasks/service-catalog/install-service-catalog-using-helm.md)
     * [Install Service Catalog Using SC](tasks/service-catalog/install-service-catalog-using-sc.md)
-  - Setup Konnectivity
-    * [Setup Konnectivity Service](tasks/setup-konnectivity/_index.md)
-    * [Set Up Konnectivity Service](tasks/setup-konnectivity/setup-konnectivity.md)
   - Tls
     * [TLS](tasks/tls/_index.md)
-    * [Certificate Rotation](tasks/tls/certificate-rotation.md)
+    * [Configure Certificate Rotation For The Kubelet](tasks/tls/certificate-rotation.md)
     * [Manage TLS Certificates In A Cluster](tasks/tls/managing-tls-in-a-cluster.md)
+    * [Manual Rotation Of CA Certificates](tasks/tls/manual-rotation-of-ca-certificates.md)
   - Tools
     * [Install Tools](tasks/tools/_index.md)
     * [Install And Set Up Kubectl](tasks/tools/install-kubectl.md)
