@@ -692,7 +692,7 @@
     * [Declarative Management Of Kubernetes Objects Using Kustomize](tasks/manage-kubernetes-objects/kustomization.md)
     * [Update API Objects In Place Using Kubectl Patch](tasks/manage-kubernetes-objects/update-api-object-kubectl-patch.md)
   - Network
-    * [Network](tasks/network/_index.md)
+    * [Networking](tasks/network/_index.md)
     * [Validate I Pv 4 I Pv 6 Dual Stack](tasks/network/validate-dual-stack.md)
   - Run Application
     * [Run Applications](tasks/run-application/_index.md)
@@ -706,7 +706,7 @@
     * [Run A Stateless Application Using A Deployment](tasks/run-application/run-stateless-application-deployment.md)
     * [Scale A Stateful Set](tasks/run-application/scale-stateful-set.md)
   - Service Catalog
-    * [Install Service Catalog](tasks/service-catalog/_index.md)
+    * [Service Catalog](tasks/service-catalog/_index.md)
     * [Install Service Catalog Using Helm](tasks/service-catalog/install-service-catalog-using-helm.md)
     * [Install Service Catalog Using SC](tasks/service-catalog/install-service-catalog-using-sc.md)
   - Tls
