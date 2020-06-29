@@ -12,7 +12,6 @@
     * [Installing Addons](concepts/cluster-administration/addons.md)
     * [Certificates](concepts/cluster-administration/certificates.md)
     * [Cloud Providers](concepts/cluster-administration/cloud-providers.md)
-    * [Cluster Administration Overview](concepts/cluster-administration/cluster-administration-overview.md)
     * [API Priority And Fairness](concepts/cluster-administration/flow-control.md)
     * [Configuring Kubelet Garbage Collection](concepts/cluster-administration/kubelet-garbage-collection.md)
     * [Logging Architecture](concepts/cluster-administration/logging.md)
@@ -35,7 +34,6 @@
     * [Container Environment](concepts/containers/container-environment.md)
     * [Container Lifecycle Hooks](concepts/containers/container-lifecycle-hooks.md)
     * [Images](concepts/containers/images.md)
-    * [Containers Overview](concepts/containers/overview.md)
     * [Runtime Class](concepts/containers/runtime-class.md)
   - Extend Kubernetes
     - Api Extension
