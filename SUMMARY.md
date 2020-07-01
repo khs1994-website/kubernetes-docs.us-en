@@ -141,6 +141,9 @@
     * [Documenting A Feature For A Release](contribute/new-content/new-features.md)
     * [Opening A Pull Request](contribute/new-content/open-a-pr.md)
     * [Contributing New Content Overview](contribute/new-content/overview.md)
+  - Participate
+    * [Participating In SIG Docs](contribute/participate/_index.md)
+    * [Roles And Responsibilities](contribute/participate/roles-and-responsibilties.md)
   - Review
     * [Reviewing Changes](contribute/review/_index.md)
     * [Reviewing For Approvers And Reviewers](contribute/review/for-approvers.md)
@@ -158,7 +161,6 @@
   * [Contribute To Kubernetes Docs](contribute/_index.md)
   * [Advanced Contributing](contribute/advanced.md)
   * [Localizing Kubernetes Documentation](contribute/localization.md)
-  * [Participating In SIG Docs](contribute/participating.md)
   * [Suggesting Content Improvements](contribute/suggesting-improvements.md)
 - [Doc Contributor Tools](doc-contributor-tools/README.md)
   - [Linkchecker](doc-contributor-tools/linkchecker/README.md)
