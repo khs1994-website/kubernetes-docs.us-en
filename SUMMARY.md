@@ -243,6 +243,7 @@
     * [Downstream Disambiguation](reference/glossary/downstream.md)
     * [Dynamic Volume Provisioning](reference/glossary/dynamic-volume-provisioning.md)
     * [Endpoint Slice](reference/glossary/endpoint-slice.md)
+    * [Endpoints](reference/glossary/endpoint.md)
     * [Ephemeral Container](reference/glossary/ephemeral-container.md)
     * [Etcd](reference/glossary/etcd.md)
     * [Extensions](reference/glossary/extensions.md)
