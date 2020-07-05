@@ -667,6 +667,7 @@
     * [Inject Data Into Applications](tasks/inject-data-application/_index.md)
     * [Define A Command And Arguments For A Container](tasks/inject-data-application/define-command-argument-container.md)
     * [Define Environment Variables For A Container](tasks/inject-data-application/define-environment-variable-container.md)
+    * [Define Dependent Environment Variables](tasks/inject-data-application/define-interdependent-environment-variables.md)
     * [Distribute Credentials Securely Using Secrets](tasks/inject-data-application/distribute-credentials-secure.md)
     * [Expose Pod Information To Containers Through Files](tasks/inject-data-application/downward-api-volume-expose-pod-information.md)
     * [Expose Pod Information To Containers Through Environment Variables](tasks/inject-data-application/environment-variable-expose-pod-information.md)
