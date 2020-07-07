@@ -125,7 +125,6 @@
       * [Pod Preset](concepts/workloads/pods/podpreset.md)
     * [Workloads](concepts/workloads/_index.md)
   * [Concepts](concepts/_index.md)
-  * [Example Concept Template](concepts/example-concept-template.md)
 - Contribute
   - Generate Ref Docs
     * [Reference Docs Overview](contribute/generate-ref-docs/_index.md)
@@ -721,7 +720,6 @@
     * [Install And Set Up Kubectl](tasks/tools/install-kubectl.md)
     * [Install Minikube](tasks/tools/install-minikube.md)
   * [Tasks](tasks/_index.md)
-  * [Example Task Template](tasks/example-task-template.md)
 - Tutorials
   - Clusters
     * [Clusters](tutorials/clusters/_index.md)
