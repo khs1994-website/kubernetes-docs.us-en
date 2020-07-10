@@ -142,6 +142,7 @@
     * [Contributing New Content Overview](contribute/new-content/overview.md)
   - Participate
     * [Participating In SIG Docs](contribute/participate/_index.md)
+    * [PR Wranglers](contribute/participate/pr-wranglers.md)
     * [Roles And Responsibilities](contribute/participate/roles-and-responsibilties.md)
   - Review
     * [Reviewing Changes](contribute/review/_index.md)
