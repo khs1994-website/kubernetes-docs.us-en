@@ -143,7 +143,7 @@
   - Participate
     * [Participating In SIG Docs](contribute/participate/_index.md)
     * [PR Wranglers](contribute/participate/pr-wranglers.md)
-    * [Roles And Responsibilities](contribute/participate/roles-and-responsibilties.md)
+    * [Roles And Responsibilities](contribute/participate/roles-and-responsibilities.md)
   - Review
     * [Reviewing Changes](contribute/review/_index.md)
     * [Reviewing For Approvers And Reviewers](contribute/review/for-approvers.md)
