@@ -47,7 +47,6 @@
     * [Extending Kubernetes](concepts/extend-kubernetes/_index.md)
     * [Extending Your Kubernetes Cluster](concepts/extend-kubernetes/extend-cluster.md)
     * [Operator Pattern](concepts/extend-kubernetes/operator.md)
-    * [Poseidon Firmament Scheduler](concepts/extend-kubernetes/poseidon-firmament-alternate-scheduler.md)
     * [Service Catalog](concepts/extend-kubernetes/service-catalog.md)
   - Overview
     - Working With Objects
