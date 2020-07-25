@@ -640,7 +640,6 @@
     * [Debug A Stateful Set](tasks/debug-application-cluster/debug-stateful-set.md)
     * [Determine The Reason For Pod Failure](tasks/debug-application-cluster/determine-reason-pod-failure.md)
     * [Events In Stackdriver](tasks/debug-application-cluster/events-stackdriver.md)
-    * [Auditing With Falco](tasks/debug-application-cluster/falco.md)
     * [Get A Shell To A Running Container](tasks/debug-application-cluster/get-shell-running-container.md)
     * [Developing And Debugging Services Locally](tasks/debug-application-cluster/local-debugging.md)
     * [Logging Using Elasticsearch And Kibana](tasks/debug-application-cluster/logging-elasticsearch-kibana.md)
