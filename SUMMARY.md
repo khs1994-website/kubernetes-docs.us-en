@@ -114,14 +114,13 @@
       * [Stateful Sets](concepts/workloads/controllers/statefulset.md)
       * [TTL Controller For Finished Resources](concepts/workloads/controllers/ttlafterfinished.md)
     - Pods
-      * [Pods](concepts/workloads/pods/pod.md)
+      * [Pods](concepts/workloads/pods/_index.md)
       * [Disruptions](concepts/workloads/pods/disruptions.md)
       * [Ephemeral Containers](concepts/workloads/pods/ephemeral-containers.md)
       * [Init Containers](concepts/workloads/pods/init-containers.md)
       * [Pod Lifecycle](concepts/workloads/pods/pod-lifecycle.md)
-      * [Pod Overview](concepts/workloads/pods/pod-overview.md)
       * [Pod Topology Spread Constraints](concepts/workloads/pods/pod-topology-spread-constraints.md)
-      * [Pod Preset](concepts/workloads/pods/podpreset.md)
+      * [Pod Presets](concepts/workloads/pods/podpreset.md)
     * [Workloads](concepts/workloads/_index.md)
   * [Concepts](concepts/_index.md)
 - Contribute
@@ -478,6 +477,7 @@
     * [Kubernetes API Overview](reference/using-api/api-overview.md)
     * [Client Libraries](reference/using-api/client-libraries.md)
     * [Kubernetes Deprecation Policy](reference/using-api/deprecation-policy.md)
+    * [Kubernetes API Health Endpoints](reference/using-api/health-checks.md)
   * [Reference](reference/_index.md)
   * [Tools](reference/tools.md)
 - Setup
