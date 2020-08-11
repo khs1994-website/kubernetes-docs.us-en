@@ -469,7 +469,6 @@
       * [Kubeadm Upgrade Phase](reference/setup-tools/kubeadm/kubeadm-upgrade-phase.md)
       * [Kubeadm Upgrade](reference/setup-tools/kubeadm/kubeadm-upgrade.md)
       * [Kubeadm Version](reference/setup-tools/kubeadm/kubeadm-version.md)
-      * [Overview Of Kubeadm](reference/setup-tools/kubeadm/kubeadm.md)
     * [Setup Tools Reference](reference/setup-tools/_index.md)
   - Using Api
     * [Using The Kubernetes API](reference/using-api/_index.md)
