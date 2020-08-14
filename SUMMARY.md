@@ -500,7 +500,7 @@
       - Kubeadm
         * [Bootstrapping Clusters With Kubeadm](setup/production-environment/tools/kubeadm/_index.md)
         * [Customizing Control Plane Configuration With Kubeadm](setup/production-environment/tools/kubeadm/control-plane-flags.md)
-        * [Creating A Single Control Plane Cluster With Kubeadm](setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md)
+        * [Creating A Cluster With Kubeadm](setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md)
         * [Options For Highly Available Topology](setup/production-environment/tools/kubeadm/ha-topology.md)
         * [Creating Highly Available Clusters With Kubeadm](setup/production-environment/tools/kubeadm/high-availability.md)
         * [Installing Kubeadm](setup/production-environment/tools/kubeadm/install-kubeadm.md)
