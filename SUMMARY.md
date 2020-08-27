@@ -16,9 +16,10 @@
     * [Configuring Kubelet Garbage Collection](concepts/cluster-administration/kubelet-garbage-collection.md)
     * [Logging Architecture](concepts/cluster-administration/logging.md)
     * [Managing Resources](concepts/cluster-administration/manage-deployment.md)
-    * [Metrics For The Kubernetes Control Plane](concepts/cluster-administration/monitoring.md)
     * [Cluster Networking](concepts/cluster-administration/networking.md)
     * [Proxies In Kubernetes](concepts/cluster-administration/proxies.md)
+    * [System Logs](concepts/cluster-administration/system-logs.md)
+    * [Metrics For Kubernetes System Components](concepts/cluster-administration/system-metrics.md)
   - Configuration
     * [Configuration](concepts/configuration/_index.md)
     * [Config Maps](concepts/configuration/configmap.md)
@@ -94,7 +95,9 @@
   - Storage
     * [Storage](concepts/storage/_index.md)
     * [Dynamic Volume Provisioning](concepts/storage/dynamic-provisioning.md)
+    * [Ephemeral Volumes](concepts/storage/ephemeral-volumes.md)
     * [Persistent Volumes](concepts/storage/persistent-volumes.md)
+    * [Storage Capacity](concepts/storage/storage-capacity.md)
     * [Storage Classes](concepts/storage/storage-classes.md)
     * [Node Specific Volume Limits](concepts/storage/storage-limits.md)
     * [CSI Volume Cloning](concepts/storage/volume-pvc-datasource.md)
@@ -332,18 +335,19 @@
     * [Overview Of Kubectl](reference/kubectl/overview.md)
   - Kubernetes Api
     * [API Reference](reference/kubernetes-api/_index.md)
-    * [v1.18](reference/kubernetes-api/api-index.md)
+    * [v1.19](reference/kubernetes-api/api-index.md)
     * [Well Known Labels Annotations And Taints](reference/kubernetes-api/labels-annotations-taints.md)
   - Scheduling
     * [Scheduling](reference/scheduling/_index.md)
+    * [Scheduler Configuration](reference/scheduling/config.md)
     * [Scheduling Policies](reference/scheduling/policies.md)
-    * [Scheduling Profiles](reference/scheduling/profiles.md)
   - Setup Tools
     - Kubeadm
       - [Generated](reference/setup-tools/kubeadm/generated/README.md)
         * [Kubeadm Generated](reference/setup-tools/kubeadm/generated/_index.md)
         * [Kubeadm Alpha Certs Certificate Key](reference/setup-tools/kubeadm/generated/kubeadm_alpha_certs_certificate-key.md)
         * [Kubeadm Alpha Certs Check Expiration](reference/setup-tools/kubeadm/generated/kubeadm_alpha_certs_check-expiration.md)
+        * [Kubeadm Alpha Certs Generate Csr](reference/setup-tools/kubeadm/generated/kubeadm_alpha_certs_generate-csr.md)
         * [kubeadm_alpha_certs_renew_admin.conf](reference/setup-tools/kubeadm/generated/kubeadm_alpha_certs_renew_admin.conf.md)
         * [Kubeadm Alpha Certs Renew All](reference/setup-tools/kubeadm/generated/kubeadm_alpha_certs_renew_all.md)
         * [Kubeadm Alpha Certs Renew Apiserver Etcd Client](reference/setup-tools/kubeadm/generated/kubeadm_alpha_certs_renew_apiserver-etcd-client.md)
@@ -449,6 +453,7 @@
         * [Kubeadm Upgrade Diff](reference/setup-tools/kubeadm/generated/kubeadm_upgrade_diff.md)
         * [Kubeadm Upgrade Node Phase Control Plane](reference/setup-tools/kubeadm/generated/kubeadm_upgrade_node_phase_control-plane.md)
         * [Kubeadm Upgrade Node Phase Kubelet Config](reference/setup-tools/kubeadm/generated/kubeadm_upgrade_node_phase_kubelet-config.md)
+        * [Kubeadm Upgrade Node Phase Preflight](reference/setup-tools/kubeadm/generated/kubeadm_upgrade_node_phase_preflight.md)
         * [Kubeadm Upgrade Node Phase](reference/setup-tools/kubeadm/generated/kubeadm_upgrade_node_phase.md)
         * [Kubeadm Upgrade Node](reference/setup-tools/kubeadm/generated/kubeadm_upgrade_node.md)
         * [Kubeadm Upgrade Plan](reference/setup-tools/kubeadm/generated/kubeadm_upgrade_plan.md)
@@ -721,7 +726,8 @@
 - Tutorials
   - Clusters
     * [Clusters](tutorials/clusters/_index.md)
-    * [App Armor](tutorials/clusters/apparmor.md)
+    * [Restrict A Container S Access To Resources With App Armor](tutorials/clusters/apparmor.md)
+    * [Restrict A Container S Syscalls With Seccomp](tutorials/clusters/seccomp.md)
   - Configuration
     * [Configuration](tutorials/configuration/_index.md)
     * [Configuring Redis Using A Config Map](tutorials/configuration/configure-redis-using-configmap.md)
