@@ -532,7 +532,7 @@
     * [Container Runtimes](setup/production-environment/container-runtimes.md)
   - Release
     * [Release Notes And Version Skew](setup/release/_index.md)
-    * [v1.18 Release Notes](setup/release/notes.md)
+    * [v1.19 Release Notes](setup/release/notes.md)
     * [Kubernetes Version And Version Skew Support Policy](setup/release/version-skew-policy.md)
   * [Getting Started](setup/_index.md)
 - Tasks
