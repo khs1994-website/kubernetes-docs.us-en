@@ -28,7 +28,6 @@
     * [Configuration Best Practices](concepts/configuration/overview.md)
     * [Pod Overhead](concepts/configuration/pod-overhead.md)
     * [Pod Priority And Preemption](concepts/configuration/pod-priority-preemption.md)
-    * [Resource Bin Packing For Extended Resources](concepts/configuration/resource-bin-packing.md)
     * [Secrets](concepts/configuration/secret.md)
   - Containers
     * [Containers](concepts/containers/_index.md)
@@ -73,6 +72,7 @@
     * [Scheduling And Eviction](concepts/scheduling-eviction/_index.md)
     * [Assigning Pods To Nodes](concepts/scheduling-eviction/assign-pod-node.md)
     * [Kubernetes Scheduler](concepts/scheduling-eviction/kube-scheduler.md)
+    * [Resource Bin Packing For Extended Resources](concepts/scheduling-eviction/resource-bin-packing.md)
     * [Scheduler Performance Tuning](concepts/scheduling-eviction/scheduler-perf-tuning.md)
     * [Scheduling Framework](concepts/scheduling-eviction/scheduling-framework.md)
     * [Taints And Tolerations](concepts/scheduling-eviction/taint-and-toleration.md)
