@@ -168,7 +168,7 @@
   - [Snippets](doc-contributor-tools/snippets/README.md)
 - Home
   * [Kubernetes Documentation](home/_index.md)
-  * [Supported Versions Of The Kubernetes Documentation](home/supported-doc-versions.md)
+  * [Available Documentation Versions](home/supported-doc-versions.md)
 - Reference
   - Access Authn Authz
     * [Accessing The API](reference/access-authn-authz/_index.md)
