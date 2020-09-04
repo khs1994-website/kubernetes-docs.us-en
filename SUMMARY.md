@@ -11,7 +11,6 @@
     * [Cluster Administration](concepts/cluster-administration/_index.md)
     * [Installing Addons](concepts/cluster-administration/addons.md)
     * [Certificates](concepts/cluster-administration/certificates.md)
-    * [Cloud Providers](concepts/cluster-administration/cloud-providers.md)
     * [API Priority And Fairness](concepts/cluster-administration/flow-control.md)
     * [Configuring Kubelet Garbage Collection](concepts/cluster-administration/kubelet-garbage-collection.md)
     * [Logging Architecture](concepts/cluster-administration/logging.md)
@@ -496,11 +495,6 @@
     * [Installing Kubernetes With Kind](setup/learning-environment/kind.md)
     * [Installing Kubernetes With Minikube](setup/learning-environment/minikube.md)
   - Production Environment
-    - On Premises Vm
-      * [On Premises V Ms](setup/production-environment/on-premises-vm/_index.md)
-      * [Cloudstack](setup/production-environment/on-premises-vm/cloudstack.md)
-      * [Kubernetes On DC OS](setup/production-environment/on-premises-vm/dcos.md)
-      * [O Virt](setup/production-environment/on-premises-vm/ovirt.md)
     - Tools
       - Kubeadm
         * [Bootstrapping Clusters With Kubeadm](setup/production-environment/tools/kubeadm/_index.md)
