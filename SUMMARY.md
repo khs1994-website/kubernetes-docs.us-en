@@ -602,6 +602,11 @@
     * [Securing A Cluster](tasks/administer-cluster/securing-a-cluster.md)
     * [Using Sysctls In A Kubernetes Cluster](tasks/administer-cluster/sysctl-cluster.md)
     * [Control Topology Management Policies On A Node](tasks/administer-cluster/topology-manager.md)
+  - Configmap Secret
+    * [Managing Secrets](tasks/configmap-secret/_index.md)
+    * [Managing Secret Using Configuration File](tasks/configmap-secret/managing-secret-using-config-file.md)
+    * [Managing Secret Using Kubectl](tasks/configmap-secret/managing-secret-using-kubectl.md)
+    * [Managing Secret Using Kustomize](tasks/configmap-secret/managing-secret-using-kustomize.md)
   - Configure Pod Container
     * [Configure Pods And Containers](tasks/configure-pod-container/_index.md)
     * [Assign CPU Resources To Containers And Pods](tasks/configure-pod-container/assign-cpu-resource.md)
