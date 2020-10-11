@@ -720,7 +720,6 @@
   - Tools
     * [Install Tools](tasks/tools/_index.md)
     * [Install And Set Up Kubectl](tasks/tools/install-kubectl.md)
-    * [Install Minikube](tasks/tools/install-minikube.md)
   * [Tasks](tasks/_index.md)
 - Tutorials
   - Clusters
