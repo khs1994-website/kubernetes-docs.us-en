@@ -298,7 +298,6 @@
     * [Replication Controller](reference/glossary/replication-controller.md)
     * [Resource Quotas](reference/glossary/resource-quota.md)
     * [Reviewer](reference/glossary/reviewer.md)
-    * [Rkt](reference/glossary/rkt.md)
     * [Secret](reference/glossary/secret.md)
     * [Security Context](reference/glossary/security-context.md)
     * [Selector](reference/glossary/selector.md)
@@ -727,6 +726,9 @@
     * [Restrict A Container S Access To Resources With App Armor](tutorials/clusters/apparmor.md)
     * [Restrict A Container S Syscalls With Seccomp](tutorials/clusters/seccomp.md)
   - Configuration
+    - Configure Java Microservice
+      * [Example Configuring A Java Microservice](tutorials/configuration/configure-java-microservice/_index.md)
+      * [Externalizing Config Using Micro Profile Config Maps And Secrets](tutorials/configuration/configure-java-microservice/configure-java-microservice.md)
     * [Configuration](tutorials/configuration/_index.md)
     * [Configuring Redis Using A Config Map](tutorials/configuration/configure-redis-using-configmap.md)
   - Kubernetes Basics
