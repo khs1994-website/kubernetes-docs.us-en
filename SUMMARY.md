@@ -106,7 +106,7 @@
     * [Volumes](concepts/storage/volumes.md)
   - Workloads
     - Controllers
-      * [Controllers](concepts/workloads/controllers/_index.md)
+      * [Workload Resources](concepts/workloads/controllers/_index.md)
       * [Cron Job](concepts/workloads/controllers/cron-jobs.md)
       * [Daemon Set](concepts/workloads/controllers/daemonset.md)
       * [Deployments](concepts/workloads/controllers/deployment.md)
