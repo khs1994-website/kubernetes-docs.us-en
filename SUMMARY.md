@@ -25,7 +25,6 @@
     * [Managing Resources For Containers](concepts/configuration/manage-resources-containers.md)
     * [Organizing Cluster Access Using Kubeconfig Files](concepts/configuration/organize-cluster-access-kubeconfig.md)
     * [Configuration Best Practices](concepts/configuration/overview.md)
-    * [Pod Overhead](concepts/configuration/pod-overhead.md)
     * [Pod Priority And Preemption](concepts/configuration/pod-priority-preemption.md)
     * [Secrets](concepts/configuration/secret.md)
   - Containers
@@ -72,6 +71,7 @@
     * [Assigning Pods To Nodes](concepts/scheduling-eviction/assign-pod-node.md)
     * [Eviction Policy](concepts/scheduling-eviction/eviction-policy.md)
     * [Kubernetes Scheduler](concepts/scheduling-eviction/kube-scheduler.md)
+    * [Pod Overhead](concepts/scheduling-eviction/pod-overhead.md)
     * [Resource Bin Packing For Extended Resources](concepts/scheduling-eviction/resource-bin-packing.md)
     * [Scheduler Performance Tuning](concepts/scheduling-eviction/scheduler-perf-tuning.md)
     * [Scheduling Framework](concepts/scheduling-eviction/scheduling-framework.md)
