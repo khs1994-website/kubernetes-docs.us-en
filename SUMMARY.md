@@ -491,8 +491,6 @@
     * [Validate Node Setup](setup/best-practices/node-conformance.md)
   - Learning Environment
     * [Learning Environment](setup/learning-environment/_index.md)
-    * [Installing Kubernetes With Kind](setup/learning-environment/kind.md)
-    * [Installing Kubernetes With Minikube](setup/learning-environment/minikube.md)
   - Production Environment
     - Tools
       - Kubeadm
