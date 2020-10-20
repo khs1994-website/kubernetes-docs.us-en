@@ -480,6 +480,7 @@
     * [Client Libraries](reference/using-api/client-libraries.md)
     * [Kubernetes Deprecation Policy](reference/using-api/deprecation-policy.md)
     * [Kubernetes API Health Endpoints](reference/using-api/health-checks.md)
+    * [Server Side Apply](reference/using-api/server-side-apply.md)
   * [Reference](reference/_index.md)
   * [Tools](reference/tools.md)
 - Setup
