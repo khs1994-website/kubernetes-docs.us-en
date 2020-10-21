@@ -78,6 +78,7 @@
     * [Taints And Tolerations](concepts/scheduling-eviction/taint-and-toleration.md)
   - Security
     * [Security](concepts/security/_index.md)
+    * [Controlling Access To The Kubernetes API](concepts/security/controlling-access.md)
     * [Overview Of Cloud Native Security](concepts/security/overview.md)
     * [Pod Security Standards](concepts/security/pod-security-standards.md)
   - Services Networking
@@ -170,14 +171,13 @@
   * [Available Documentation Versions](home/supported-doc-versions.md)
 - Reference
   - Access Authn Authz
-    * [Accessing The API](reference/access-authn-authz/_index.md)
+    * [API Access Control](reference/access-authn-authz/_index.md)
     * [Using ABAC Authorization](reference/access-authn-authz/abac.md)
     * [Using Admission Controllers](reference/access-authn-authz/admission-controllers.md)
     * [Authenticating](reference/access-authn-authz/authentication.md)
     * [Authorization Overview](reference/access-authn-authz/authorization.md)
     * [Authenticating With Bootstrap Tokens](reference/access-authn-authz/bootstrap-tokens.md)
     * [Certificate Signing Requests](reference/access-authn-authz/certificate-signing-requests.md)
-    * [Controlling Access To The Kubernetes API](reference/access-authn-authz/controlling-access.md)
     * [Dynamic Admission Control](reference/access-authn-authz/extensible-admission-controllers.md)
     * [Using Node Authorization](reference/access-authn-authz/node.md)
     * [Using RBAC Authorization](reference/access-authn-authz/rbac.md)
@@ -474,9 +474,8 @@
       * [Kubeadm Version](reference/setup-tools/kubeadm/kubeadm-version.md)
     * [Setup Tools Reference](reference/setup-tools/_index.md)
   - Using Api
-    * [Using The Kubernetes API](reference/using-api/_index.md)
+    * [Kubernetes API Overview](reference/using-api/_index.md)
     * [Kubernetes API Concepts](reference/using-api/api-concepts.md)
-    * [Kubernetes API Overview](reference/using-api/api-overview.md)
     * [Client Libraries](reference/using-api/client-libraries.md)
     * [Kubernetes Deprecation Policy](reference/using-api/deprecation-policy.md)
     * [Kubernetes API Health Endpoints](reference/using-api/health-checks.md)
