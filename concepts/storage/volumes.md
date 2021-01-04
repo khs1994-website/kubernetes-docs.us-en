@@ -303,6 +303,12 @@ While tmpfs is very fast, be aware that unlike disks, tmpfs is cleared on
 node reboot and any files you write count against your container's
 memory limit.
 
+{{< note >}}
+If the `SizeMemoryBackedVolumes` [feature gate](/docs/reference/command-line-tools-reference/feature-gates/) is enabled,
+you can specify a size for memory backed volumes.  If no size is specified, memory
+backed volumes are sized to 50% of the memory on a Linux host.
+{{< /note>}}
+
 #### emptyDir configuration example
 
 ```yaml
@@ -1367,7 +1373,7 @@ For more information on how to develop a CSI driver, refer to the
 
 #### Migrating to CSI drivers from in-tree plugins
 
-{{< feature-state for_k8s_version="v1.17" state="alpha" >}}
+{{< feature-state for_k8s_version="v1.17" state="beta" >}}
 
 The `CSIMigration` feature, when enabled, directs operations against existing in-tree
 plugins to corresponding CSI plugins (which are expected to be installed and configured).

@@ -4,7 +4,7 @@ reviewers:
 - bart0sh
 title: Container runtimes
 content_type: concept
-weight: 10
+weight: 20
 ---
 <!-- overview -->
 
@@ -85,6 +85,7 @@ net.ipv4.ip_forward                 = 1
 net.bridge.bridge-nf-call-ip6tables = 1
 EOF
 
+# Apply sysctl params without reboot
 sudo sysctl --system
 ```
 
@@ -102,7 +103,7 @@ sudo apt-get update && sudo apt-get install -y apt-transport-https ca-certificat
 
 ```shell
 ## Add Docker's official GPG key
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add --keyring /etc/apt/trusted.gpg.d/docker.gpg -
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key --keyring /etc/apt/trusted.gpg.d/docker.gpg add -
 ```
 
 ```shell
@@ -121,7 +122,25 @@ sudo apt-get update && sudo apt-get install -y containerd.io
 ```shell
 # Configure containerd
 sudo mkdir -p /etc/containerd
-sudo containerd config default > /etc/containerd/config.toml
+sudo containerd config default | sudo tee /etc/containerd/config.toml
+```
+
+```shell
+# Restart containerd
+sudo systemctl restart containerd
+```
+{{% /tab %}}
+{{% tab name="Ubuntu 18.04/20.04" %}}
+
+```shell
+# (Install containerd)
+sudo apt-get update && sudo apt-get install -y containerd
+```
+
+```shell
+# Configure containerd
+sudo mkdir -p /etc/containerd
+sudo containerd config default | sudo tee /etc/containerd/config.toml
 ```
 
 ```shell
@@ -165,8 +184,8 @@ sudo systemctl restart containerd
 ```powershell
 # (Install containerd)
 # download containerd
-cmd /c curl -OL https://github.com/containerd/containerd/releases/download/v1.4.0-beta.2/containerd-1.4.0-beta.2-windows-amd64.tar.gz
-cmd /c tar xvf .\containerd-1.4.0-beta.2-windows-amd64.tar.gz
+cmd /c curl -OL https://github.com/containerd/containerd/releases/download/v1.4.1/containerd-1.4.1-windows-amd64.tar.gz
+cmd /c tar xvf .\containerd-1.4.1-windows-amd64.tar.gz
 ```
 
 ```powershell
@@ -257,8 +276,8 @@ cat <<EOF | sudo tee /etc/apt/sources.list.d/devel:kubic:libcontainers:stable:cr
 deb http://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable:/cri-o:/$VERSION/$OS/ /
 EOF
 
-curl -L https://download.opensuse.org/repositories/devel:kubic:libcontainers:stable:cri-o:$VERSION/$OS/Release.key | sudo apt-key add --keyring /etc/apt/trusted.gpg.d/libcontainers.gpg -
-curl -L https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/$OS/Release.key | sudo apt-key add --keyring /etc/apt/trusted.gpg.d/libcontainers.gpg -
+curl -L https://download.opensuse.org/repositories/devel:kubic:libcontainers:stable:cri-o:$VERSION/$OS/Release.key | sudo apt-key --keyring /etc/apt/trusted.gpg.d/libcontainers.gpg add -
+curl -L https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/$OS/Release.key | sudo apt-key --keyring /etc/apt/trusted.gpg.d/libcontainers.gpg add -
 
 sudo apt-get update
 sudo apt-get install cri-o cri-o-runc
@@ -293,8 +312,8 @@ cat <<EOF | sudo tee /etc/apt/sources.list.d/devel:kubic:libcontainers:stable:cr
 deb http://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable:/cri-o:/$VERSION/$OS/ /
 EOF
 
-curl -L https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/$OS/Release.key | sudo apt-key add --keyring /etc/apt/trusted.gpg.d/libcontainers.gpg
-curl -L https://download.opensuse.org/repositories/devel:kubic:libcontainers:stable:cri-o:$VERSION/$OS/Release.key | sudo apt-key add --keyring /etc/apt/trusted.gpg.d/libcontainers-cri-o.gpg -
+curl -L https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/$OS/Release.key | sudo apt-key --keyring /etc/apt/trusted.gpg.d/libcontainers.gpg add -
+curl -L https://download.opensuse.org/repositories/devel:kubic:libcontainers:stable:cri-o:$VERSION/$OS/Release.key | sudo apt-key --keyring /etc/apt/trusted.gpg.d/libcontainers-cri-o.gpg add -
 
 sudo apt-get update
 sudo apt-get install cri-o cri-o-runc
@@ -387,7 +406,7 @@ sudo apt-get update && sudo apt-get install -y \
 
 ```shell
 # Add Docker's official GPG key:
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add --keyring /etc/apt/trusted.gpg.d/docker.gpg -
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key --keyring /etc/apt/trusted.gpg.d/docker.gpg add -
 ```
 
 ```shell
@@ -421,6 +440,7 @@ EOF
 ```
 
 ```shell
+# Create /etc/systemd/system/docker.service.d
 sudo mkdir -p /etc/systemd/system/docker.service.d
 ```
 
@@ -476,6 +496,7 @@ EOF
 ```
 
 ```shell
+# Create /etc/systemd/system/docker.service.d
 sudo mkdir -p /etc/systemd/system/docker.service.d
 ```
 
