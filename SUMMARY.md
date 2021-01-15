@@ -527,7 +527,7 @@
     * [Communicate Between Containers In The Same Pod Using A Shared Volume](tasks/access-application-cluster/communicate-containers-same-pod-shared-volume.md)
     * [Configure Access To Multiple Clusters](tasks/access-application-cluster/configure-access-multiple-clusters.md)
     * [Configure DNS For A Cluster](tasks/access-application-cluster/configure-dns-cluster.md)
-    * [Connect A Front End To A Back End Using A Service](tasks/access-application-cluster/connecting-frontend-backend.md)
+    * [Connect A Frontend To A Backend Using Services](tasks/access-application-cluster/connecting-frontend-backend.md)
     * [Create An External Load Balancer](tasks/access-application-cluster/create-external-load-balancer.md)
     * [Set Up Ingress On Minikube With The NGINX Ingress Controller](tasks/access-application-cluster/ingress-minikube.md)
     * [List All Container Images Running In A Cluster](tasks/access-application-cluster/list-all-running-container-images.md)
