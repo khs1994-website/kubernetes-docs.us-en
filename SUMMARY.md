@@ -288,7 +288,6 @@
     * [Pod Priority](reference/glossary/pod-priority.md)
     * [Pod Security Policy](reference/glossary/pod-security-policy.md)
     * [Pod](reference/glossary/pod.md)
-    * [Pod Preset](reference/glossary/podpreset.md)
     * [Preemption](reference/glossary/preemption.md)
     * [Proxy](reference/glossary/proxy.md)
     * [Qo S Class](reference/glossary/qos-class.md)
@@ -664,7 +663,6 @@
     * [Distribute Credentials Securely Using Secrets](tasks/inject-data-application/distribute-credentials-secure.md)
     * [Expose Pod Information To Containers Through Files](tasks/inject-data-application/downward-api-volume-expose-pod-information.md)
     * [Expose Pod Information To Containers Through Environment Variables](tasks/inject-data-application/environment-variable-expose-pod-information.md)
-    * [Inject Information Into Pods Using A Pod Preset](tasks/inject-data-application/podpreset.md)
   - Job
     * [Run Jobs](tasks/job/_index.md)
     * [Running Automated Tasks With A Cron Job](tasks/job/automated-tasks-with-cron-jobs.md)
