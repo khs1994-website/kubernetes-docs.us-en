@@ -649,6 +649,10 @@
       * [Configure Default Memory Requests And Limits For A Namespace](tasks/administer-cluster/manage-resources/memory-default-namespace.md)
       * [Configure Memory And CPU Quotas For A Namespace](tasks/administer-cluster/manage-resources/quota-memory-cpu-namespace.md)
       * [Configure A Pod Quota For A Namespace](tasks/administer-cluster/manage-resources/quota-pod-namespace.md)
+    - Migrating From Dockershim
+      * [Migrating From Dockershim](tasks/administer-cluster/migrating-from-dockershim/_index.md)
+      * [Check Whether Dockershim Deprecation Affects You](tasks/administer-cluster/migrating-from-dockershim/check-if-dockershim-deprecation-affects-you.md)
+      * [Migrating Telemetry And Security Agents From Dockershim](tasks/administer-cluster/migrating-from-dockershim/migrating-telemetry-and-security-agents.md)
     - Network Policy Provider
       * [Install A Network Policy Provider](tasks/administer-cluster/network-policy-provider/_index.md)
       * [Use Calico For Network Policy](tasks/administer-cluster/network-policy-provider/calico-network-policy.md)
