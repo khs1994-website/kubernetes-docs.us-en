@@ -852,8 +852,7 @@
   - Stateless Application
     * [Stateless Applications](tutorials/stateless-application/_index.md)
     * [Exposing An External IP Address To Access An Application In A Cluster](tutorials/stateless-application/expose-external-ip-address.md)
-    * [Example Add Logging And Metrics To The PHP Redis Guestbook Example](tutorials/stateless-application/guestbook-logs-metrics-with-elk.md)
-    * [Example Deploying PHP Guestbook Application With Redis](tutorials/stateless-application/guestbook.md)
+    * [Example Deploying PHP Guestbook Application With Mongo DB](tutorials/stateless-application/guestbook.md)
   * [Tutorials](tutorials/_index.md)
   * [Hello Minikube](tutorials/hello-minikube.md)
 * [Production Grade Container Orchestration](README.md)
