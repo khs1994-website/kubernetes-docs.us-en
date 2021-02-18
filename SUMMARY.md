@@ -577,6 +577,7 @@
     * [Kubernetes API Overview](reference/using-api/_index.md)
     * [Kubernetes API Concepts](reference/using-api/api-concepts.md)
     * [Client Libraries](reference/using-api/client-libraries.md)
+    * [Deprecated API Migration Guide](reference/using-api/deprecation-guide.md)
     * [Kubernetes Deprecation Policy](reference/using-api/deprecation-policy.md)
     * [Kubernetes API Health Endpoints](reference/using-api/health-checks.md)
     * [Server Side Apply](reference/using-api/server-side-apply.md)
