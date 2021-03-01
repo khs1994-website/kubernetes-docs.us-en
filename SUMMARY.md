@@ -664,6 +664,7 @@
     * [Administer A Cluster](tasks/administer-cluster/_index.md)
     * [Access Clusters Using The Kubernetes API](tasks/administer-cluster/access-cluster-api.md)
     * [Access Services Running On Clusters](tasks/administer-cluster/access-cluster-services.md)
+    * [Certificates](tasks/administer-cluster/certificates.md)
     * [Change The Default Storage Class](tasks/administer-cluster/change-default-storage-class.md)
     * [Change The Reclaim Policy Of A Persistent Volume](tasks/administer-cluster/change-pv-reclaim-policy.md)
     * [Upgrade A Cluster](tasks/administer-cluster/cluster-upgrade.md)
