@@ -796,6 +796,7 @@
     * [Validate I Pv 4 I Pv 6 Dual Stack](tasks/network/validate-dual-stack.md)
   - Run Application
     * [Run Applications](tasks/run-application/_index.md)
+    * [Accessing The Kubernetes API From A Pod](tasks/run-application/access-api-from-pod.md)
     * [Specifying A Disruption Budget For Your Application](tasks/run-application/configure-pdb.md)
     * [Delete A Stateful Set](tasks/run-application/delete-stateful-set.md)
     * [Force Delete Stateful Set Pods](tasks/run-application/force-delete-stateful-set-pod.md)
