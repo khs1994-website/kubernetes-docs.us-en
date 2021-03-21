@@ -184,7 +184,7 @@
     * [Managing Service Accounts](reference/access-authn-authz/service-accounts-admin.md)
     * [Webhook Mode](reference/access-authn-authz/webhook.md)
   - Command Line Tools Reference
-    * [Command Line Tools Reference](reference/command-line-tools-reference/_index.md)
+    * [Component Tools](reference/command-line-tools-reference/_index.md)
     * [Feature Gates](reference/command-line-tools-reference/feature-gates.md)
     * [Kube Apiserver](reference/command-line-tools-reference/kube-apiserver.md)
     * [Kube Controller Manager](reference/command-line-tools-reference/kube-controller-manager.md)
@@ -251,7 +251,7 @@
     * [Horizontal Pod Autoscaler](reference/glossary/horizontal-pod-autoscaler.md)
     * [Host Aliases](reference/glossary/host-aliases.md)
     * [Image](reference/glossary/image.md)
-    * [Standardized Glossary](reference/glossary/index.md)
+    * [Glossary](reference/glossary/index.md)
     * [Ingress](reference/glossary/ingress.md)
     * [Init Container](reference/glossary/init-container.md)
     * [Istio](reference/glossary/istio.md)
@@ -323,7 +323,6 @@
     * [Kubernetes Issue Tracker](reference/issues-security/issues.md)
     * [Kubernetes Security And Disclosure Information](reference/issues-security/security.md)
   - [Kubectl](reference/kubectl/kubectl.md)
-    * [Kubectl CLI](reference/kubectl/_index.md)
     * [Kubectl Cheat Sheet](reference/kubectl/cheatsheet.md)
     * [Kubectl Usage Conventions](reference/kubectl/conventions.md)
     * [Kubectl For Docker Users](reference/kubectl/docker-cli-to-kubectl.md)
@@ -572,9 +571,11 @@
       * [Kubeadm Upgrade Phase](reference/setup-tools/kubeadm/kubeadm-upgrade-phase.md)
       * [Kubeadm Upgrade](reference/setup-tools/kubeadm/kubeadm-upgrade.md)
       * [Kubeadm Version](reference/setup-tools/kubeadm/kubeadm-version.md)
-    * [Setup Tools Reference](reference/setup-tools/_index.md)
+    * [Setup Tools](reference/setup-tools/_index.md)
+  - Tools
+    * [Other Tools](reference/tools/_index.md)
   - Using Api
-    * [Kubernetes API Overview](reference/using-api/_index.md)
+    * [API Overview](reference/using-api/_index.md)
     * [Kubernetes API Concepts](reference/using-api/api-concepts.md)
     * [Client Libraries](reference/using-api/client-libraries.md)
     * [Deprecated API Migration Guide](reference/using-api/deprecation-guide.md)
@@ -583,7 +584,6 @@
     * [Server Side Apply](reference/using-api/server-side-apply.md)
   * [Reference](reference/_index.md)
   * [Well Known Labels Annotations And Taints](reference/labels-annotations-taints.md)
-  * [Tools](reference/tools.md)
 - Setup
   - Best Practices
     * [Best Practices](setup/best-practices/_index.md)
@@ -816,8 +816,18 @@
     * [Manage TLS Certificates In A Cluster](tasks/tls/managing-tls-in-a-cluster.md)
     * [Manual Rotation Of CA Certificates](tasks/tls/manual-rotation-of-ca-certificates.md)
   - Tools
+    - Included
+      * [Tools Included](tasks/tools/included/_index.md)
+      * [Gcloud Kubectl Install](tasks/tools/included/install-kubectl-gcloud.md)
+      * [What S Next](tasks/tools/included/kubectl-whats-next.md)
+      * [Bash Auto Completion On Linux](tasks/tools/included/optional-kubectl-configs-bash-linux.md)
+      * [Bash Auto Completion On Mac OS](tasks/tools/included/optional-kubectl-configs-bash-mac.md)
+      * [Zsh Auto Completion](tasks/tools/included/optional-kubectl-configs-zsh.md)
+      * [Verify Kubectl Install](tasks/tools/included/verify-kubectl.md)
     * [Install Tools](tasks/tools/_index.md)
-    * [Install And Set Up Kubectl](tasks/tools/install-kubectl.md)
+    * [Install And Set Up Kubectl On Linux](tasks/tools/install-kubectl-linux.md)
+    * [Install And Set Up Kubectl On Mac OS](tasks/tools/install-kubectl-macos.md)
+    * [Install And Set Up Kubectl On Windows](tasks/tools/install-kubectl-windows.md)
   * [Tasks](tasks/_index.md)
 - Tutorials
   - Clusters
