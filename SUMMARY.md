@@ -193,6 +193,9 @@
     * [Kubelet Authentication Authorization](reference/command-line-tools-reference/kubelet-authentication-authorization.md)
     * [TLS Bootstrapping](reference/command-line-tools-reference/kubelet-tls-bootstrapping.md)
     * [Kubelet](reference/command-line-tools-reference/kubelet.md)
+  - Config Api
+    * [Configuration AP Is](reference/config-api/_index.md)
+    * [Kube Proxy Configuration V 1 Alpha 1](reference/config-api/kube-proxy-config.v1alpha1.md)
   - Glossary
     * [Add Ons](reference/glossary/addons.md)
     * [Admission Controller](reference/glossary/admission-controller.md)
