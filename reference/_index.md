@@ -22,8 +22,6 @@ This section of the Kubernetes documentation contains references.
 
 * [Glossary](/docs/reference/glossary/) -  a comprehensive, standardized list of Kubernetes terminology
 
-
-
 * [Kubernetes API Reference](/docs/reference/kubernetes-api/)
 * [One-page API Reference for Kubernetes {{< param "version" >}}](/docs/reference/generated/kubernetes-api/{{< param "version" >}}/)
 * [Using The Kubernetes API](/docs/reference/using-api/) - overview of the API for Kubernetes.
@@ -51,7 +49,9 @@ client libraries:
 
 ## Components
 
-* [kubelet](/docs/reference/command-line-tools-reference/kubelet/) - The primary *node agent* that runs on each node. The kubelet takes a set of PodSpecs and ensures that the described containers are running and healthy.
+* [kubelet](/docs/reference/command-line-tools-reference/kubelet/) - The
+  primary agent that runs on each node. The kubelet takes a set of PodSpecs
+  and ensures that the described containers are running and healthy.
 * [kube-apiserver](/docs/reference/command-line-tools-reference/kube-apiserver/) - REST API that validates and configures data for API objects such as  pods, services, replication controllers.
 * [kube-controller-manager](/docs/reference/command-line-tools-reference/kube-controller-manager/) - Daemon that embeds the core control loops shipped with Kubernetes.
 * [kube-proxy](/docs/reference/command-line-tools-reference/kube-proxy/) - Can
@@ -65,6 +65,12 @@ client libraries:
 ## Config APIs
 
 * [kube-proxy configuration (v1alpha1)](/docs/reference/config-api/kube-proxy-config.v1alpha1/)
+* [kube-scheduler config (v1beta1)](/docs/reference/config-api/kube-scheduler-config.v1beta1/)
+
+
+## Config APIs
+
+* [kubelet config (v1beta1)](/docs/reference/config-api/kubelet-config.v1beta1/)
 
 ## Design Docs
 

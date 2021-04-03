@@ -191,11 +191,14 @@
     * [Kube Proxy](reference/command-line-tools-reference/kube-proxy.md)
     * [Kube Scheduler](reference/command-line-tools-reference/kube-scheduler.md)
     * [Kubelet Authentication Authorization](reference/command-line-tools-reference/kubelet-authentication-authorization.md)
+    * [kubelet-config.v1beta1](reference/command-line-tools-reference/kubelet-config.v1beta1.md)
     * [TLS Bootstrapping](reference/command-line-tools-reference/kubelet-tls-bootstrapping.md)
     * [Kubelet](reference/command-line-tools-reference/kubelet.md)
   - Config Api
     * [Configuration AP Is](reference/config-api/_index.md)
     * [Kube Proxy Configuration V 1 Alpha 1](reference/config-api/kube-proxy-config.v1alpha1.md)
+    * [Kube Scheduler Configuration V 1 Beta 1](reference/config-api/kube-scheduler-config.v1beta1.md)
+    * [Kubelet Configuration V 1 Beta 1](reference/config-api/kubelet-config.v1beta1.md)
   - Glossary
     * [Add Ons](reference/glossary/addons.md)
     * [Admission Controller](reference/glossary/admission-controller.md)
