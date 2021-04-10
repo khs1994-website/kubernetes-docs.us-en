@@ -459,6 +459,8 @@
     - Kubeadm
       - [Generated](reference/setup-tools/kubeadm/generated/README.md)
         * [Kubeadm Generated](reference/setup-tools/kubeadm/generated/_index.md)
+        * [Kubeadm Alpha Kubeconfig User](reference/setup-tools/kubeadm/generated/kubeadm_alpha_kubeconfig_user.md)
+        * [Kubeadm Alpha Kubeconfig](reference/setup-tools/kubeadm/generated/kubeadm_alpha_kubeconfig.md)
         * [Kubeadm Alpha](reference/setup-tools/kubeadm/generated/kubeadm_alpha.md)
         * [Kubeadm Certs Certificate Key](reference/setup-tools/kubeadm/generated/kubeadm_certs_certificate-key.md)
         * [Kubeadm Certs Check Expiration](reference/setup-tools/kubeadm/generated/kubeadm_certs_check-expiration.md)
@@ -484,7 +486,6 @@
         * [Kubeadm Config Print Init Defaults](reference/setup-tools/kubeadm/generated/kubeadm_config_print_init-defaults.md)
         * [Kubeadm Config Print Join Defaults](reference/setup-tools/kubeadm/generated/kubeadm_config_print_join-defaults.md)
         * [Kubeadm Config Print](reference/setup-tools/kubeadm/generated/kubeadm_config_print.md)
-        * [Kubeadm Config View](reference/setup-tools/kubeadm/generated/kubeadm_config_view.md)
         * [Kubeadm Config](reference/setup-tools/kubeadm/generated/kubeadm_config.md)
         * [Kubeadm Init Phase Addon All](reference/setup-tools/kubeadm/generated/kubeadm_init_phase_addon_all.md)
         * [Kubeadm Init Phase Addon Coredns](reference/setup-tools/kubeadm/generated/kubeadm_init_phase_addon_coredns.md)
