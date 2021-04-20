@@ -657,6 +657,7 @@
       * [Migrating Telemetry And Security Agents From Dockershim](tasks/administer-cluster/migrating-from-dockershim/migrating-telemetry-and-security-agents.md)
     - Network Policy Provider
       * [Install A Network Policy Provider](tasks/administer-cluster/network-policy-provider/_index.md)
+      * [Use Antrea For Network Policy](tasks/administer-cluster/network-policy-provider/antrea-network-policy.md)
       * [Use Calico For Network Policy](tasks/administer-cluster/network-policy-provider/calico-network-policy.md)
       * [Use Cilium For Network Policy](tasks/administer-cluster/network-policy-provider/cilium-network-policy.md)
       * [Use Kube Router For Network Policy](tasks/administer-cluster/network-policy-provider/kube-router-network-policy.md)
