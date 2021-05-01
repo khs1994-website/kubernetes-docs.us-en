@@ -194,7 +194,6 @@
     * [Kube Proxy](reference/command-line-tools-reference/kube-proxy.md)
     * [Kube Scheduler](reference/command-line-tools-reference/kube-scheduler.md)
     * [Kubelet Authentication Authorization](reference/command-line-tools-reference/kubelet-authentication-authorization.md)
-    * [kubelet-config.v1beta1](reference/command-line-tools-reference/kubelet-config.v1beta1.md)
     * [TLS Bootstrapping](reference/command-line-tools-reference/kubelet-tls-bootstrapping.md)
     * [Kubelet](reference/command-line-tools-reference/kubelet.md)
   - Config Api
