@@ -705,7 +705,7 @@
   - Configmap Secret
     * [Managing Secrets](tasks/configmap-secret/_index.md)
     * [Managing Secret Using Configuration File](tasks/configmap-secret/managing-secret-using-config-file.md)
-    * [Managing Secret Using Kubectl](tasks/configmap-secret/managing-secret-using-kubectl.md)
+    * [Managing Secrets Using Kubectl](tasks/configmap-secret/managing-secret-using-kubectl.md)
     * [Managing Secret Using Kustomize](tasks/configmap-secret/managing-secret-using-kustomize.md)
   - Configure Pod Container
     * [Configure Pods And Containers](tasks/configure-pod-container/_index.md)
