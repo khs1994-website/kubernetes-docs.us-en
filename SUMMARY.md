@@ -615,10 +615,6 @@
     * [Production Environment](setup/production-environment/_index.md)
     * [Container Runtimes](setup/production-environment/container-runtimes.md)
     * [Turnkey Cloud Solutions](setup/production-environment/turnkey-solutions.md)
-  - Release
-    * [Release Notes And Version Skew](setup/release/_index.md)
-    * [v1.21 Release Notes](setup/release/notes.md)
-    * [Kubernetes Version And Version Skew Support Policy](setup/release/version-skew-policy.md)
   * [Getting Started](setup/_index.md)
 - Tasks
   - Access Application Cluster
