@@ -4,7 +4,7 @@ reviewers:
 - wojtek-t
 title: Pod Priority and Preemption
 content_type: concept
-weight: 70
+weight: 50
 ---
 
 <!-- overview -->
@@ -252,12 +252,12 @@ Even so, the answer to the preceding question must be yes. If the answer is no,
 the Node is not considered for preemption.
 {{< /note >}}
 
-If a pending Pod has inter-pod affinity to one or more of the lower-priority
-Pods on the Node, the inter-Pod affinity rule cannot be satisfied in the absence
-of those lower-priority Pods. In this case, the scheduler does not preempt any
-Pods on the Node. Instead, it looks for another Node. The scheduler might find a
-suitable Node or it might not. There is no guarantee that the pending Pod can be
-scheduled.
+If a pending Pod has inter-pod {{< glossary_tooltip text="affinity" term_id="affinity" >}}
+to one or more of the lower-priority Pods on the Node, the inter-Pod affinity
+rule cannot be satisfied in the absence of those lower-priority Pods. In this case, 
+the scheduler does not preempt any Pods on the Node. Instead, it looks for another
+Node. The scheduler might find a suitable Node or it might not. There is no 
+guarantee that the pending Pod can be scheduled.
 
 Our recommended solution for this problem is to create inter-Pod affinity only
 towards equal or higher priority Pods.
@@ -372,4 +372,6 @@ that exceeds its requests may be evicted.
 ## {{% heading "whatsnext" %}}
 
 * Read about using ResourceQuotas in connection with PriorityClasses: [limit Priority Class consumption by default](/docs/concepts/policy/resource-quotas/#limit-priority-class-consumption-by-default)
-
+* Learn about [Pod Disruption](/docs/concepts/workloads/pods/disruptions/)
+* Learn about [API-initiated Eviction](/docs/concepts/scheduling-eviction/api-eviction/)
+* Learn about [Node-pressure Eviction](/docs/concepts/scheduling-eviction/node-pressure-eviction/)
