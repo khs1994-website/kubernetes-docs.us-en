@@ -85,7 +85,6 @@
     * [Pod Security Standards](concepts/security/pod-security-standards.md)
   - Services Networking
     * [Services Load Balancing And Networking](concepts/services-networking/_index.md)
-    * [Adding Entries To Pod Etc Hosts With Host Aliases](concepts/services-networking/add-entries-to-pod-etc-hosts-with-host-aliases.md)
     * [Connecting Applications With Services](concepts/services-networking/connect-applications-service.md)
     * [DNS For Services And Pods](concepts/services-networking/dns-pod-service.md)
     * [I Pv 4 I Pv 6 Dual Stack](concepts/services-networking/dual-stack.md)
@@ -797,6 +796,7 @@
     * [Update API Objects In Place Using Kubectl Patch](tasks/manage-kubernetes-objects/update-api-object-kubectl-patch.md)
   - Network
     * [Networking](tasks/network/_index.md)
+    * [Adding Entries To Pod Etc Hosts With Host Aliases](tasks/network/customize-hosts-file-for-pods.md)
     * [Validate I Pv 4 I Pv 6 Dual Stack](tasks/network/validate-dual-stack.md)
   - Run Application
     * [Run Applications](tasks/run-application/_index.md)
