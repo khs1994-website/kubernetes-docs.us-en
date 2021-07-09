@@ -205,6 +205,7 @@
     * [Kube Proxy Configuration V 1 Alpha 1](reference/config-api/kube-proxy-config.v1alpha1.md)
     * [Kube Scheduler Configuration V 1 Beta 1](reference/config-api/kube-scheduler-config.v1beta1.md)
     * [Kube Scheduler Policy Configuration V 1](reference/config-api/kube-scheduler-policy-config.v1.md)
+    * [Kubeadm Configuration V 1 Beta 3](reference/config-api/kubeadm-config.v1beta3.md)
     * [Kubelet Configuration V 1 Beta 1](reference/config-api/kubelet-config.v1beta1.md)
   - Glossary
     * [Add Ons](reference/glossary/addons.md)
