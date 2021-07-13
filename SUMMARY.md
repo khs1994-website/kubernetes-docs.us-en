@@ -823,6 +823,7 @@
   - Tools
     - Included
       * [Tools Included](tasks/tools/included/_index.md)
+      * [Kubectl Convert Overview](tasks/tools/included/kubectl-convert-overview.md)
       * [What S Next](tasks/tools/included/kubectl-whats-next.md)
       * [Bash Auto Completion On Linux](tasks/tools/included/optional-kubectl-configs-bash-linux.md)
       * [Bash Auto Completion On Mac OS](tasks/tools/included/optional-kubectl-configs-bash-mac.md)
